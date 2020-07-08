@@ -19,6 +19,8 @@
 		B2C5FD8124B66D00009F4E97 /* Extension+DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C5FD8024B66D00009F4E97 /* Extension+DateFormatter.swift */; };
 		B2C5FD8424B67B60009F4E97 /* AddDueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C5FD8324B67B60009F4E97 /* AddDueViewController.swift */; };
 		B2C5FD8624B684C4009F4E97 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C5FD8524B684C4009F4E97 /* UIViewController+Extension.swift */; };
+		B2C5FD8824B68AD1009F4E97 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C5FD8724B68AD1009F4E97 /* DataSource.swift */; };
+		B2C5FD8A24B68B42009F4E97 /* Smile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C5FD8924B68B42009F4E97 /* Smile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		B2C5FD8024B66D00009F4E97 /* Extension+DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+DateFormatter.swift"; sourceTree = "<group>"; };
 		B2C5FD8324B67B60009F4E97 /* AddDueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDueViewController.swift; sourceTree = "<group>"; };
 		B2C5FD8524B684C4009F4E97 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		B2C5FD8724B68AD1009F4E97 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		B2C5FD8924B68B42009F4E97 /* Smile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 				B2C5FD7924B63C49009F4E97 /* DueListPresenter.swift */,
 				B2C5FD7B24B6690D009F4E97 /* DueModel.swift */,
 				B2C5FD7D24B66BC1009F4E97 /* DueTableViewCell.swift */,
+				B2C5FD8724B68AD1009F4E97 /* DataSource.swift */,
+				B2C5FD8924B68B42009F4E97 /* Smile.swift */,
 			);
 			path = DueList;
 			sourceTree = "<group>";
@@ -184,10 +190,12 @@
 				B2C5FD6924B5F7BD009F4E97 /* DueListViewController.swift in Sources */,
 				B2C5FD8124B66D00009F4E97 /* Extension+DateFormatter.swift in Sources */,
 				B2C5FD7C24B6690D009F4E97 /* DueModel.swift in Sources */,
+				B2C5FD8A24B68B42009F4E97 /* Smile.swift in Sources */,
 				B2C5FD8424B67B60009F4E97 /* AddDueViewController.swift in Sources */,
 				B2C5FD6524B5F7BD009F4E97 /* AppDelegate.swift in Sources */,
 				B2C5FD6724B5F7BD009F4E97 /* SceneDelegate.swift in Sources */,
 				B2C5FD7E24B66BC1009F4E97 /* DueTableViewCell.swift in Sources */,
+				B2C5FD8824B68AD1009F4E97 /* DataSource.swift in Sources */,
 				B2C5FD7A24B63C49009F4E97 /* DueListPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

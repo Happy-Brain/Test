@@ -51,9 +51,8 @@ extension DueListViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! DueTableViewCell
-        
-        cell.configure(with: dataSource[indexPath.section]
-            .items[indexPath.row])
+        let item = dataSource[indexPath.section].items[indexPath.row]
+        cell.configure(with: item)
         return cell
     }
     
@@ -74,9 +73,3 @@ extension DueListViewController: AddDueViewControllerDelegate {
         self.presenter.dueAdded(due: due)
     }
 }
-
-struct DataSource {
-    let title: String
-    let items: [Due]
-}
-

@@ -19,11 +19,6 @@ protocol DueListPresenterOut: class {
 }
 
 class DueListPresenter: DueListPresenterIn {
-    func dueAdded(due: Due) {
-        self.dues.append(due)
-        self.delegate?.duesRecieved()
-    }
-    
     
     weak var delegate: DueListPresenterOut?
     
@@ -45,5 +40,10 @@ class DueListPresenter: DueListPresenterIn {
             .sorted { (left, right) -> Bool in
                 DateFormatter.shortDate.date(from: left.title) ?? Date() > DateFormatter.shortDate.date(from: right.title) ?? Date()
         }
+    }
+    
+    func dueAdded(due: Due) {
+        self.dues.append(due)
+        self.delegate?.duesRecieved()
     }
 }
