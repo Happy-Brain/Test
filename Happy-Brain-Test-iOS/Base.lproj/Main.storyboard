@@ -96,7 +96,7 @@
                     <navigationItem key="navigationItem" id="bKd-ac-hOk">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="WrS-jy-e3L">
                             <connections>
-                                <segue destination="F5W-Cu-KI0" kind="popoverPresentation" popoverAnchorBarButtonItem="WrS-jy-e3L" id="FTa-Yj-oxW">
+                                <segue destination="F5W-Cu-KI0" kind="popoverPresentation" identifier="showAddDue" popoverAnchorBarButtonItem="WrS-jy-e3L" id="FTa-Yj-oxW">
                                     <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                 </segue>
                             </connections>

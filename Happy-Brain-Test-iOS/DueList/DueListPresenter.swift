@@ -35,7 +35,7 @@ class DueListPresenter: DueListPresenterIn {
                 result[DateFormatter.shortDate.string(from: due.time), default: []].append(due)}
             .reduce(into: [DataSource]()) { (result, dict) in
                 result.append(DataSource(title: dict.key, items: dict.value.sorted(by: { (left, right) -> Bool in
-                    left.time > right.time
+                    left.time < right.time
                 })))}
             .sorted { (left, right) -> Bool in
                 DateFormatter.shortDate.date(from: left.title) ?? Date() > DateFormatter.shortDate.date(from: right.title) ?? Date()
